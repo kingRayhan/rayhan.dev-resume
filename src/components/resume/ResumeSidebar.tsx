@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { resume } from "@/data/resume";
+import { linkHover } from "./Section";
 
 const nav = [
   { id: "about", label: "About" },
@@ -36,7 +37,7 @@ export function ResumeSidebar() {
               <li key={item.id}>
                 <a
                   href={`#${item.id}`}
-                  className="text-sm text-muted transition-colors hover:text-accent"
+                  className={`text-sm text-muted ${linkHover}`}
                 >
                   {item.label}
                 </a>
@@ -52,12 +53,12 @@ export function ResumeSidebar() {
             </p>
             <ul className="space-y-1.5 text-muted">
               <li>
-                <a href={`mailto:${contact.email}`} className="hover:text-accent">
+                <a href={`mailto:${contact.email}`} className={linkHover}>
                   {contact.email}
                 </a>
               </li>
               <li>
-                <a href={`tel:${contact.phone}`} className="hover:text-accent">
+                <a href={`tel:${contact.phone}`} className={linkHover}>
                   {contact.phone}
                 </a>
               </li>
@@ -66,7 +67,7 @@ export function ResumeSidebar() {
                   href={contact.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-accent"
+                  className={linkHover}
                 >
                   LinkedIn
                 </a>
@@ -76,7 +77,7 @@ export function ResumeSidebar() {
                   href={contact.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-accent"
+                  className={linkHover}
                 >
                   GitHub
                 </a>

@@ -15,6 +15,9 @@ export function Section({ id, title, children }: SectionProps) {
   );
 }
 
+export const linkHover =
+  "underline-offset-4 transition-colors hover:text-accent hover:underline";
+
 export function ExternalLink({
   href,
   children,
@@ -29,7 +32,7 @@ export function ExternalLink({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`text-accent underline-offset-4 transition-opacity hover:underline ${className}`}
+      className={`text-accent ${linkHover} ${className}`}
     >
       {children}
     </a>
