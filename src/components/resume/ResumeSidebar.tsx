@@ -23,13 +23,27 @@ export function ResumeSidebar() {
             width={88}
             height={88}
             priority
-            className="size-[5.5rem] rounded-full object-cover"
+            className=" rounded-full object-cover"
           />
           <div>
-            <h1 className="text-xl font-semibold tracking-tight">{resume.name}</h1>
-            <p className="mt-1 text-sm leading-relaxed text-muted">{resume.title}</p>
+            <h1 className="text-xl font-semibold tracking-tight">
+              {resume.name}
+            </h1>
+            <p className="mt-1 text-sm leading-relaxed text-muted">
+              {resume.title}
+            </p>
           </div>
         </header>
+
+        <a
+          href={contact.resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`inline-flex items-center gap-1.5 text-sm text-muted ${linkHover}`}
+        >
+          <DownloadIcon />
+          Download PDF
+        </a>
 
         <nav className="hidden border-y border-border py-4 lg:block">
           <ul className="space-y-2">
@@ -101,16 +115,27 @@ export function ResumeSidebar() {
             </dl>
           </div>
         </div>
-
-        <a
-          href={contact.resumeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex w-fit items-center rounded-full border border-accent/30 px-4 py-2 text-xs font-medium text-accent transition-colors hover:bg-accent-soft"
-        >
-          Download PDF
-        </a>
       </div>
     </aside>
+  );
+}
+
+function DownloadIcon() {
+  return (
+    <svg
+      aria-hidden
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      className="size-3.5 shrink-0"
+    >
+      <path
+        d="M8 2v7M8 9l2.5-2.5M8 9L5.5 6.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path d="M3 11.5v1a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5v-1" />
+    </svg>
   );
 }
