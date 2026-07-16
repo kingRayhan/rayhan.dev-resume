@@ -1,0 +1,229 @@
+{
+  "name": "Md Raihan",
+  "title": "Full-stack Engineer · Founder & CTO",
+  "photo": "/photo.jpg",
+  "contact": {
+    "phone": "+8801836980760",
+    "email": "rayhan.dev.bd@gmail.com",
+    "linkedin": "https://linkedin.com/in/kingrayhan",
+    "github": "https://github.com/kingrayhan",
+    "resumeUrl": "https://drive.google.com/file/d/1rYPD28yv2i8Gk9REvw5rzk4_D8LsseUD/view"
+  },
+  "summary": "Full-stack engineer and Founder & CTO of Graphland, where I've launched multiple SaaS products — owning architecture, infrastructure, and engineering hiring from first commit to production. Deep expertise across the TypeScript/Node.js and Python ecosystems, with a focus on scalable API design (REST, GraphQL, gRPC), microservices, and real-time systems. Author of open-source libraries used in production by other teams.",
+  "education": [
+    {
+      "school": "Brac University",
+      "degree": "MSc in Computer Science and Engineering",
+      "location": "Badda, Dhaka",
+      "period": "September 2025 – Present"
+    },
+    {
+      "school": "North South University",
+      "degree": "BSc in Computer Science and Engineering",
+      "location": "Bashundhara Residential Area",
+      "period": "October 2015 – December 2021"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Founder & CTO",
+      "company": "Graphland",
+      "period": "November 2022 – Present",
+      "stack": "TypeScript, React, Next.js, NestJS, PostgreSQL, MongoDB, Docker",
+      "highlights": [
+        "Founded and run a product company shipping in-house SaaS products and developer platforms alongside custom client projects.",
+        "DineBD (client) — lead system designer for a food-delivery chain's full infrastructure: customer, partner, and rider apps plus operations dashboards on a microservice architecture; led the engineering team through delivery.",
+        "Own architecture, infrastructure, and deployments across all products; designed the shared multi-tenant platform they run on.",
+        "Hired and mentor the engineering team; set code standards, review processes, and delivery practices."
+      ]
+    },
+    {
+      "role": "Fullstack Engineer",
+      "company": "Alma Harvest",
+      "period": "February 2024 – Present",
+      "stack": "Python, Flask, React, PostgreSQL, Docker",
+      "highlights": [
+        "Built scalable web applications using React, Flask, and PostgreSQL.",
+        "Collaborated with Google Earth Engine, Digifarm, and other providers to integrate maps, field data, and agricultural insights.",
+        "Developed RESTful APIs and real-time data pipelines.",
+        "Implemented authentication, geospatial features, and data visualization."
+      ]
+    },
+
+    {
+      "role": "Frontend Engineer",
+      "company": "Redlime Solutions",
+      "period": "October 2022 – January 2024",
+      "stack": "Angular, TypeScript, GraphQL, Socket.io, RxJS, NgRx",
+      "highlights": [
+        "Built Angular applications with TypeScript, GraphQL, and Socket.io.",
+        "Implemented real-time features and optimized frontend performance.",
+        "Used RxJS and NgRx for state and data management.",
+        "Collaborated with backend and design teams for seamless UI/data flow."
+      ]
+    },
+    {
+      "role": "Fullstack Engineer",
+      "company": "Newsrme.com",
+      "period": "June 2021 – September 2022",
+      "stack": "React, Node.js, MongoDB",
+      "highlights": [
+        "Built a video-sharing platform enabling creators and viewers to earn redeemable points.",
+        "Developed frontend and backend using React, Node.js, and MongoDB.",
+        "Implemented video upload/streaming, authentication, and point management."
+      ]
+    },
+    {
+      "role": "Backend Engineer",
+      "company": "AuctionVilla.io",
+      "period": "January 2016 – November 2017",
+      "stack": "Django, PostgreSQL, Python, JavaScript",
+      "highlights": [
+        "Developed backend systems and contributed to frontend features for a bidding marketplace (Flippa-like).",
+        "Implemented auction management, user workflows, and payment handling using Django and PostgreSQL.",
+        "Planned and executed new features and optimized system performance for scalability."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Banik",
+      "tagline": "ERP & POS",
+      "url": "https://banik.app",
+      "description": "ERP and point-of-sale for merchants — sales, inventory, payroll, reports, and payment reminders over WhatsApp/SMS."
+    },
+    {
+      "name": "StoreOS",
+      "tagline": "Headless Commerce",
+      "url": "https://storeos.dev",
+      "description": "Multi-tenant commerce backend with REST/GraphQL APIs, a TypeScript storefront SDK, and CDN-backed media."
+    },
+    {
+      "name": "Identety",
+      "tagline": "Authentication",
+      "url": "https://identety.dev",
+      "description": "Self-hosted identity service with no MAU limits — Docker-ready, full source access, developer-friendly auth flows."
+    },
+    {
+      "name": "waland",
+      "tagline": "Messaging API",
+      "url": "https://waland.dev",
+      "description": "WhatsApp/SMS API for Bangladesh — bulk campaigns, OTP delivery, templates, delivery reports, and webhooks."
+    },
+    {
+      "name": "envland",
+      "tagline": "Developer Tools",
+      "url": "https://envland.dev",
+      "description": "Encrypted .env manager for teams — CLI pull/push/diff across environments with AES-256-GCM encryption and audit history."
+    },
+    {
+      "name": "TechDiary",
+      "tagline": "Developer Community",
+      "url": "https://techdiary.dev",
+      "description": "Bengali-language developer blogging platform (dev.to-style) — articles, gists, topics, and an active Discord community."
+    }
+  ],
+  "openSource": [
+    {
+      "name": "SqlKIT",
+      "stack": "TypeScript, PostgreSQL",
+      "description": "Zero-dependency SQL query builder and repository layer with expressive API for joins, pagination, and CRUD.",
+      "link": "https://github.com/sqlkit-dev/sqlkit",
+      "linkLabel": "github.com/sqlkit-dev/sqlkit"
+    },
+    {
+      "name": "@graphland/zkteco",
+      "stack": "TypeScript, Node.js",
+      "description": "TypeScript client for ZKTeco biometric attendance devices — TCP/UDP protocol, user management, attendance logs, and real-time events.",
+      "link": "https://www.npmjs.com/package/@graphland/zkteco",
+      "linkLabel": "npm: @graphland/zkteco"
+    },
+    {
+      "name": "@graphland/pgw-merchant",
+      "stack": "TypeScript, Node.js",
+      "description": "Merchant SDK for the Graphland Payment Gateway — invoice creation, payment status checks, and webhook signature verification.",
+      "link": "https://www.npmjs.com/package/@graphland/pgw-merchant",
+      "linkLabel": "npm: @graphland/pgw-merchant"
+    },
+    {
+      "name": "@storeos/storefront-client",
+      "stack": "TypeScript",
+      "description": "TypeScript SDK for the StoreOS Storefront REST API — typed client used by storefronts built on the StoreOS commerce platform.",
+      "link": "https://www.npmjs.com/package/@storeos/storefront-client",
+      "linkLabel": "npm: @storeos/storefront-client"
+    },
+    {
+      "name": "Inline Switch",
+      "stack": "TypeScript, JavaScript",
+      "description": "Flexible inline switch statement with pattern matching for TypeScript/JavaScript.",
+      "link": "https://github.com/kingRayhan/inlineswitch",
+      "linkLabel": "github.com/kingRayhan/inlineswitch"
+    },
+    {
+      "name": "Quick Crud",
+      "stack": "TypeScript, Mongoose, Node.js",
+      "description": "Lightweight wrapper library for Mongoose to simplify CRUD operations, sorting, joining, and pagination.",
+      "link": "https://www.npmjs.com/package/quick-crud",
+      "linkLabel": "npm: quick-crud"
+    },
+    {
+      "name": "Ghost Finder",
+      "stack": "JavaScript",
+      "description": "Simple SDK for performing full-text search in Ghost CMS with customizable API for UI integration.",
+      "link": "https://www.npmjs.com/package/ghost-finder",
+      "linkLabel": "npm: ghost-finder"
+    },
+    {
+      "name": "React Visibility",
+      "stack": "React, JavaScript",
+      "description": "Library to detect when elements become visible or hidden — useful for infinite scrolling fetchers or conditional rendering.",
+      "link": "https://www.npmjs.com/package/reactjs-visibility",
+      "linkLabel": "npm: reactjs-visibility"
+    },
+    {
+      "name": "Mini PHP",
+      "stack": "PHP",
+      "description": "PHP micro-framework to quickly build simple yet powerful web applications and APIs.",
+      "link": "https://github.com/kingRayhan/mini-php",
+      "linkLabel": "github.com/kingRayhan/mini-php"
+    }
+  ],
+  "skills": {
+    "Languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "PHP",
+      "SQL (PostgreSQL)",
+      "HTML/CSS"
+    ],
+    "Frameworks": [
+      "React",
+      "Angular",
+      "Vue",
+      "Nuxt",
+      "Node.js",
+      "NestJS",
+      "Flask",
+      "Django",
+      "FastAPI"
+    ],
+    "Tools & Platforms": [
+      "Git",
+      "Docker",
+      "PM2",
+      "Redis",
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "Libraries & Tech": [
+      "GraphQL",
+      "gRPC",
+      "RxJS",
+      "NgRx",
+      "pandas",
+      "NumPy",
+      "Matplotlib"
+    ]
+  }
+}
